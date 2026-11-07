@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason Budiharjo | Portfolio</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" tabindex="0">
+
+    <!-- Navigation -->
+    <nav id="navbar-example2" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-amber" href="#">JASON.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#publication">Publication</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section d-flex align-items-center bg-dark text-white">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold mb-3">Hi, I'm <span class="text-amber">Jason Budiharjo</span></h1>
+            <p class="lead mb-4">Artificial Intelligence Enthusiast & Software Engineer</p>
+            <div class="d-flex justify-content-center gap-3">
+                <a href="#projects" class="btn btn-amber btn-lg px-4 rounded-pill">View Projects</a>
+                <!-- Link this to your actual CV file later -->
+                <a href="CV Jason Budiharjo.pdf" class="btn btn-outline-light btn-lg px-4 rounded-pill"><i class="bi bi-download me-2"></i>Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About & Skills Section -->
+    <section id="about" class="py-5">
+        <div class="container py-5">
+            <div class="row mb-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="fw-bold mb-4 border-bottom-amber d-inline-block pb-2">About Me</h2>
+                    <p class="text-muted" style="line-height: 1.8;">
+                        I am a Computer Science student at BINUS University (2024-Present), currently taking the Artificial Intelligence track with a focus on Machine Learning and Deep Learning. I am passionate about building intelligent systems and scalable software solutions.
+                    </p>
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="fw-bold mb-4 border-bottom-amber d-inline-block pb-2">Technical Skills</h2>
+                    
+                    <h6 class="fw-bold mt-3">Programming Languages</h6>
+                    <div class="d-flex flex-wrap gap-2 mb-3">
+                        <span class="badge bg-secondary">Python</span>
+                        <span class="badge bg-secondary">JavaScript</span>
+                        <span class="badge bg-secondary">Java</span>
+                        <span class="badge bg-secondary">C</span>
+                        <span class="badge bg-secondary">SQL</span>
+                        <span class="badge bg-secondary">HTML/CSS</span>
+                    </div>
+
+                    <h6 class="fw-bold">AI, LLM & Data Pipelines</h6>
+                    <div class="d-flex flex-wrap gap-2 mb-3">
+                        <span class="badge bg-secondary">LangChain</span>
+                        <span class="badge bg-secondary">Google Gemini API</span>
+                        <span class="badge bg-secondary">ChromaDB</span>
+                        <span class="badge bg-secondary">PyMuPDF</span>
+                        <span class="badge bg-secondary">OpenCV</span>
+                        <span class="badge bg-secondary">MediaPipe</span>
+                        <span class="badge bg-secondary">Streamlit</span>
+                    </div>
+
+                    <h6 class="fw-bold">Framework & Frontend</h6>
+                    <div class="d-flex flex-wrap gap-2 mb-3">
+                        <span class="badge bg-secondary">Pygame</span>
+                        <span class="badge bg-secondary">Streamlit WebRTC</span>
+                        <span class="badge bg-secondary">Socket.io</span>
+                        <span class="badge bg-secondary">Node.js</span>
+                        <span class="badge bg-secondary">ExcelJS</span>
+                        <span class="badge bg-secondary">Express.js</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+        <div class="container py-5">
+            <h2 class="text-center fw-bold mb-5">Featured Projects</h2>
+            <div class="row g-4">
+                
+                <!-- Project 1 -->
+                <div class="col-md-6 col-lg-6">
+                    <div class="card h-100 border-0 shadow-sm project-card">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="card-title fw-bold">EduRAG - Academic Document QA System</h5>
+                                <span class="badge bg-amber text-dark">Oct 2026</span>
+                            </div>
+                            <p class="card-text text-muted">Retrieval-Augmented Generation (RAG) application based on Streamlit, Python, and LangChain which processes academic PDF to automatically answer questions based on the document's context. Integrating Gemini for chatbot.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 p-4 pt-0">
+                            <a href="https://github.com/jason-b123/EduRag" target="_blank" class="text-decoration-none text-dark fw-bold"><i class="bi bi-github me-2"></i>View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6 col-lg-6">
+                    <div class="card h-100 border-0 shadow-sm project-card">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="card-title fw-bold">IoT Based Automatic Plant Watering</h5>
+                                <span class="badge bg-amber text-dark">Oct 2026</span>
+                            </div>
+                            <p class="card-text text-muted">Built an ESP based plant watering automatic system that utilizes interrupt handling logic to manage the condition of an empty water tank.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 p-4 pt-0">
+                            <!-- <a href="https://github.com/jason-b123" target="_blank" class="text-decoration-none text-dark fw-bold"><i class="bi bi-github me-2"></i>View Code</a> -->
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="col-md-6 col-lg-6">
+                    <div class="card h-100 border-0 shadow-sm project-card">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="card-title fw-bold">Gesture-Based Computer Vision Fruit Ninja</h5>
+                                <span class="badge bg-amber text-dark">Sep 2026</span>
+                            </div>
+                            <p class="card-text text-muted">Built interactive game application based on real-time hand gesture tracking on Python, OpenCV, MediaPipe, Pygame, and Streamlit WebRTC.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 p-4 pt-0">
+                            <a href="https://github.com/jason-b123/Air-Fruit-Ninja" target="_blank" class="text-decoration-none text-dark fw-bold"><i class="bi bi-github me-2"></i>View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="col-md-6 col-lg-6">
+                    <div class="card h-100 border-0 shadow-sm project-card">
+                        <div class="card-body p-4">
+                            <div class="d-flex justify-content-between align-items-start mb-2">
+                                <h5 class="card-title fw-bold">Real-Time Queue Management System</h5>
+                                <span class="badge bg-amber text-dark">Mar 2026</span>
+                            </div>
+                            <p class="card-text text-muted">Built an event-driven web-based queue management application using Node.js, Express, and Socket.io for real-time, multi-screen guest notification.</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 p-4 pt-0">
+                            <a href="https://github.com/jason-b123/qs" target="_blank" class="text-decoration-none text-dark fw-bold"><i class="bi bi-github me-2"></i>View Code</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Publication Section -->
+    <section id="publication" class="py-5">
+        <div class="container py-5">
+            <h2 class="text-center fw-bold mb-5">Publication</h2>
+            <div class="card border-0 shadow-sm mx-auto" style="max-width: 800px;">
+                <div class="card-body p-5 text-center">
+                    <i class="bi bi-journal-text display-4 text-amber mb-3"></i>
+                    <h4 class="fw-bold">Evaluating the Impact of Text Preprocessing Techniques on Sentiment Classification</h4>
+                    <p class="text-muted mb-4">Accepted & Presented at IITSOE 2026 | October 2026</p>
+                    <p>Conducting comparative research to evaluate the effectiveness of five social media-specific text preprocessing scenarios on the performance of sentiment classification models, using Twitter data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container py-5 text-center">
+            <h2 class="fw-bold mb-4">Let's Connect</h2>
+            <p class="mb-5 text-light">Feel free to reach out for collaborations or just a friendly hello.</p>
+            
+            <div class="d-flex justify-content-center gap-4 mb-5">
+                <a href="mailto:jasonbudiharjo@gmail.com" class="text-white fs-3 hover-amber"><i class="bi bi-envelope"></i></a>
+                <a href="https://linkedin.com/in/jason-budiharjo" target="_blank" class="text-white fs-3 hover-amber"><i class="bi bi-linkedin"></i></a>
+                <a href="https://github.com/jason-b123" target="_blank" class="text-white fs-3 hover-amber"><i class="bi bi-github"></i></a>
+                <a href="https://wa.me/6281327500468" target="_blank" class="text-white fs-3 hover-amber"><i class="bi bi-whatsapp"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-center text-secondary py-4 border-top border-secondary">
+        <div class="container">
+            <small>&copy; 2026 Jason Budiharjo. All rights reserved.</small>
+        </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom Script -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+/* CSS Variables */
+:root {
+    --primary-amber: #d97706; /* Warm amber / Industrial lattice inspiration */
+    --primary-amber-hover: #b45309;
+    --dark-bg: #111827;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Custom Text Colors */
+.text-amber { color: var(--primary-amber) !important; }
+.bg-amber { background-color: var(--primary-amber) !important; color: white !important; }
+
+/* Buttons */
+.btn-amber {
+    background-color: var(--primary-amber);
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+.btn-amber:hover {
+    background-color: var(--primary-amber-hover);
+    color: white;
+    transform: translateY(-2px);
+}
+
+/* Hero Section */
+.hero-section {
+    min-height: 100vh;
+    background: linear-gradient(rgba(17, 24, 39, 0.9), rgba(17, 24, 39, 0.9)), url('https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&q=80') center/cover;
+}
+
+/* Utilities */
+.border-bottom-amber {
+    border-bottom: 3px solid var(--primary-amber);
+}
+
+.hover-amber:hover {
+    color: var(--primary-amber) !important;
+    transition: color 0.3s ease;
+}
+
+/* Project Cards */
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: 1px solid rgba(0,0,0,0.05) !important;
+}
+.project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
